@@ -8,22 +8,21 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.gerenciadordoceria.R;
-import com.example.gerenciadordoceria.RegistryFragment;
 
-public class RecyclerViewHolder extends RecyclerView.ViewHolder {
+public class EstoqueRecyclerViewHolder extends RecyclerView.ViewHolder {
     public TextView itemName;
     public TextView itemQuant;
     public TextView itemvalor;
 
     public TableLayout tableLayout;
-    public RecyclerViewHolder(@NonNull TextView itemName, TextView itemQuant, TextView itemvalor) {
+    public EstoqueRecyclerViewHolder(@NonNull TextView itemName, TextView itemQuant, TextView itemvalor) {
         super(itemName);
         this.itemName = itemName;
         this.itemQuant = itemQuant;
         this.itemvalor = itemvalor;
     }
 
-    public RecyclerViewHolder(@NonNull View itemView) {
+    public EstoqueRecyclerViewHolder(@NonNull View itemView) {
         super(itemView);
         this.itemName = itemView.findViewById(R.id.textTableName);
         this.itemQuant = itemView.findViewById(R.id.textTableQuant);
