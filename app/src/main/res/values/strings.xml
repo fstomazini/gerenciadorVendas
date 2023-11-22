@@ -20,9 +20,17 @@
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
     <string name="register">"Register"</string>
-    <!-- begin of home dropdown variables -->
+    <!-- begin of home variables -->
     <string name="select">"Select Item"</string>
-    <!-- end of home dropdown variables  -->
+    <string-array name="produtos">
+        <item>Chocolate</item>
+        <item>Cookie</item>
+        <item>Brownie</item>
+        <item>Bolo</item>
+        <item>Bolo de pote</item>
+        <item>Cheesecake</item>
+    </string-array>
+    <!-- end of home variables  -->
 
 
 </resources>
