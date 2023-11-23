@@ -33,7 +33,7 @@ public class EstoqueRecyclerAdapter extends RecyclerView.Adapter<EstoqueRecycler
     public void onBindViewHolder(@NonNull EstoqueRecyclerViewHolder holder, int position) {
         holder.itemName.setText(list.get(position).getProduto().getNomeProduto());
         holder.itemQuant.setText(list.get(position).getQuantidade().toString());
-        holder.itemvalor.setText(list.get(position).getValorTotalVenda().toString());
+        holder.itemvalor.setText(String.format("%.2f",list.get(position).getValorTotalVenda()));
     }
 
     @Override
